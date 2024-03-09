@@ -42,7 +42,7 @@ const AboutSectionOne = () => {
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Next-gen frameworks" />
                     <List text="Comprehensive docs" />
-                    <List text="Developer-friendly" />
+                    <List text="Customer-Oriented" />
                   </div>
                 </div>
               </div>
