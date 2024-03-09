@@ -63,8 +63,8 @@ const Contact = () => {
         </p>
       </div>
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
+        <div className="-mx-4 flex ">
+          <div className="w-full px-4 lg:w-7/12 xl:w-8/12 mx-auto">
             <div
               className="mb-12 rounded-sm bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
@@ -147,14 +147,13 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
+          {/* <div className="w-full px-4 lg:w-4/12 xl:w-3/12"> */}
             {/* <NewsLatterBox /> */}
 
+            {/* <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.09595735833!2d78.12282365!3d9.91783685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1709384858769!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade" frameBorder="0" allowFullScreen></iframe> */}
 
-            <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.09595735833!2d78.12282365!3d9.91783685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1709384858769!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade" frameBorder="0" allowFullScreen></iframe>
 
-
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
