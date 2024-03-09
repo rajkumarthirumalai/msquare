@@ -28,24 +28,30 @@ const AboutSectionTwo = () => {
             <div className="max-w-[670px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                How We Work:
+                  How We Work:
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Experience seamless collaboration with MSquare. From initial requirement understanding to final delivery, we prioritize open communication and transparency. Your involvement throughout the process ensures that our services align perfectly with your goals.
+                  Experience seamless collaboration with MSquare. From initial requirement understanding to final delivery, we prioritize open communication and transparency. Your involvement throughout the process ensures that our services align perfectly with your goals.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                What Sets Us Apart:
+                  What Sets Us Apart:
                 </h3>
 
-                <ul>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed" ><b>Service Excellence</b>: We uphold the highest standards of service excellence, ensuring that every interaction with MSquare exceeds your expectations.</li><br></br>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed" ><b>Client-Centric Focus</b>: Your satisfaction is our priority. We listen closely to your needs, tailoring our services to deliver personalized solutions.</li><br></br>
-                <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed" ><b>Innovative Solutions</b>: In a dynamic industry, we thrive on innovation. Our adaptive strategies and forward-thinking approaches enable us to provide cutting-edge solutions.</li><br></br>
-              </ul>
+                <ul className="space-y-4">
+                  <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    <b>Service Excellence</b>: We uphold the highest standards of service excellence, ensuring that every interaction with MSquare exceeds your expectations.
+                  </li>
+                  <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    <b>Client-Centric Focus</b>: Your satisfaction is our priority. We listen closely to your needs, tailoring our services to deliver personalized solutions.
+                  </li>
+                  <li className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    <b>Innovative Solutions</b>: In a dynamic industry, we thrive on innovation. Our adaptive strategies and forward-thinking approaches enable us to provide cutting-edge solutions.
+                  </li>
+                </ul>
               </div>
-              
+
             </div>
           </div>
         </div>
